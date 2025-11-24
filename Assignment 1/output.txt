@@ -1,0 +1,40 @@
+
+
+=== PROCESS MANAGEMENT LAB (Cross-Platform Version) ===
+
+--- Task 1: Process Creation ---
+All child processes completed.
+
+
+--- Task 2: Command Execution ---
+
+Executing: dir
+
+Executing: date /T
+
+Executing: whoami
+
+All commands executed.
+
+
+--- Task 3: Simulated Zombie & Orphan Processes ---
+[Parent Sim] Sleeping while child runs (simulating zombie/orphan)...
+[Parent Sim] Child process finished.
+
+
+--- Task 4: Process Information ---
+Current PID : 16716
+Parent PID  : 15636
+Platform    : Windows
+Executable  : process_management.py
+Memory Usage: 22.37 MB
+CPU Times   : pcputimes(user=0.078125, system=0.03125, children_user=0.0, children_system=0.0)
+
+
+--- Task 5: Simulated Process Prioritization ---
+Running process with High Priority...
+Running process with Normal Priority...
+Running process with Low Priority...
+All processes executed in simulated priority order.
+
+=== LAB EXECUTION COMPLETED SUCCESSFULLY ===
